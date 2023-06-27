@@ -8,8 +8,14 @@ const Layer = ({ image, height, width, alt }) => {
         width: width,
         height: height,
       }}
+      className="relative rounded-md overflow-hidden"
     >
-      <Image src={image} fill alt={alt} />
+      <Image
+        src={image}
+        fill
+        alt={alt}
+        className="rounded-md overflow-hidden"
+      />
     </div>
   );
 };
