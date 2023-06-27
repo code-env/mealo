@@ -5,30 +5,22 @@ html {
   scroll-behavior: smooth;
 }
 
+.resize {
+  @apply px-36;
+}
+
+.b-blue {
+  background: #4f5aa8;
+}
+
+.t-blue {
+  color: #4f5aa8;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.bg-gradient {
+  background: linear-gradient(137deg, #e84a5f 0%, #4f5aa8 100%);
 }
