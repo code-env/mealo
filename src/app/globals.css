@@ -1,8 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;900&display=swap");
 
-html {
+* {
   font-family: "Roboto Slab", serif;
+}
+
+.t-col {
+  color: #2a363b;
+}
+
+html {
   scroll-behavior: smooth;
+}
+
+.this {
+  @apply font-bold cursor-pointer hover:opacity-75 transition-all bg-gradient px-10 py-2 text-white rounded-sm w-fit text-base;
 }
 
 .resize {

@@ -18,7 +18,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="w-full h-16 items-center resize">
+    <header className="w-full h-16 items-center resize fixed top-0 bg-white z-50">
       <nav className="flex w-full justify-between items-center h-full">
         <div className="cursor-pointer">
           <Image
